@@ -1,0 +1,47 @@
+# Electronic Device Billing System
+
+A desktop-based billing application developed in Java Swing with MySQL database integration for managing customer and product data, generating invoices, and tracking reports.
+
+##  Description
+
+This project is a user-friendly and secure billing system for electronic device shops. 
+It allows the administrator to manage customer and product records, generate sales reports (daily, weekly, monthly, yearly), and produce invoices in PDF format.
+
+##  Features
+
+- Admin login with authentication
+- Forgot password recovery with a security question
+- Add, update, delete customers and products
+- Generate invoices with detailed information
+- Stock check and alert if item is out of stock
+- Reports generation: daily, weekly, monthly, yearly
+- Data stored securely in MySQL database
+- Export bills as PDF
+
+## Technologies Used
+
+- **Frontend:** Java Swing
+- **Backend:** Java
+- **Database:** MySQL
+- **IDE:** NetBeans
+
+
+##  Database Tables
+- `login`
+- `customer`
+- `product`
+- `bill`
+
+
+##  Limitations
+- Dependent on power and server availability
+- Billing not possible if stock is unavailable
+
+## Conclusion
+This system streamlines the billing process and enhances operational efficiency by reducing manual efforts. 
+The integration of GUI and database ensures easy access and management of business data.
+
+##  Credentials for Demo
+
+- **Username:** TYBCA
+- **Password:** Admin
